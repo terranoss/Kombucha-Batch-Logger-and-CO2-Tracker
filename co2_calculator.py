@@ -3,6 +3,20 @@ CO2 Calculator for Kombucha Fermentation
 
 This module provides functions to estimate CO2 production during kombucha fermentation
 based on sugar content, temperature, fermentation time, and batch volume.
+
+The calculations are based on simplified models that approximate real-world fermentation
+behavior. While these estimates are useful for tracking trends and relative changes,
+they should not be considered precise measurements for safety-critical decisions.
+
+Key functions:
+- calculate_co2_production: Estimates CO2 produced from sugar during fermentation
+- estimate_fermentation_completion: Calculates percentage of fermentation completed
+- estimate_co2: Estimates CO2 pressure in a sealed container
+- predict_co2_timeline: Generates a timeline of predicted CO2 production
+- calculate_sugar_needed: Estimates sugar needed for target CO2 production
+
+Author: Deen
+Email: deen.htc@gmail.com
 """
 
 def calculate_co2_production(sugar_amount, days, temperature=25, volume=1.0):
@@ -137,11 +151,20 @@ def estimate_co2(sugar_content, temp, time_in_days):
     Returns:
         float: Estimated CO₂ pressure in atmospheres (atm)
     """
+    # Input validation
+    if sugar_content < 0:
+        sugar_content = 0
+    if time_in_days < 0:
+        time_in_days = 0
+    
     # Calculate temperature factor
     # Fermentation is faster at higher temperatures
     # Base temperature is 25°C
     temp_factor = 1.0 + (temp - 25) * 0.05  # 5% change per degree C
-
+    
+    # Ensure temperature factor is within reasonable bounds
+    temp_factor = max(0.5, min(temp_factor, 2.0))
+    
     # Calculate time factor with diminishing returns
     # This models the decreasing fermentation rate as sugar is consumed
     if time_in_days <= 0:
@@ -188,3 +211,5 @@ if __name__ == "__main__":
     for temp in [20, 22, 25, 28, 30]:
         pressure = estimate_co2(200, temp, 7)
         print(f"At {temp}°C: {pressure:.2f} atm")
+
+

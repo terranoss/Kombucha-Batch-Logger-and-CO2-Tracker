@@ -1,3 +1,21 @@
+"""
+Kombucha Batch Logger & CO₂ Tracker
+
+This Streamlit application helps kombucha brewers track their fermentation batches,
+log critical data (pH, temperature, time), and predict CO₂ buildup to avoid 
+overcarbonation or bottle explosions.
+
+Main features:
+1. Batch tracking and management
+2. Primary fermentation data logging
+3. Secondary fermentation monitoring with CO₂ estimation
+4. Batch comparison and visualization
+5. Safety alerts for dangerous CO₂ pressure levels
+
+Author: Deen
+Email: deen.htc@gmail.com
+"""
+
 import streamlit as st
 import pandas as pd
 import datetime
@@ -12,13 +30,17 @@ print(f"Data file path: {os.path.abspath(DATA_FILE)}")
 
 # Function to save data to file - define this BEFORE using it
 def save_data():
-    data = {
-        'batches': st.session_state.batches,
-        'settings': st.session_state.settings
-    }
-    with open(DATA_FILE, 'w') as f:
-        json.dump(data, f, indent=2)
-    print(f"Saved {len(st.session_state.batches)} batches to {DATA_FILE}")
+    try:
+        data = {
+            'batches': st.session_state.batches,
+            'settings': st.session_state.settings
+        }
+        with open(DATA_FILE, 'w') as f:
+            json.dump(data, f, indent=2)
+        print(f"Saved {len(st.session_state.batches)} batches to {DATA_FILE}")
+    except Exception as e:
+        st.error(f"Error saving data: {str(e)}")
+        print(f"Error saving data: {str(e)}")
 
 # Set page configuration
 st.set_page_config(
@@ -1808,6 +1830,8 @@ if st.session_state.batches:
 # Footer
 st.markdown("---")
 st.markdown("© 2025 Kombucha Batch Logger | Made with Streamlit | deen.htc@gmail.com")
+
+
 
 
 

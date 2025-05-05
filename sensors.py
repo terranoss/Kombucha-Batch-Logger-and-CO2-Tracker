@@ -1,14 +1,21 @@
 """
-Future implementation
+Sensor Interface for Kombucha Monitoring
 
-Raspberry Pi Sensor Integration for Kombucha Batch Logger
+This module provides functions to read data from physical sensors or simulate
+sensor readings when hardware is not available. It supports temperature, pH,
+and CO2 sensors that can be connected to a Raspberry Pi.
 
-This module provides functions to read data from sensors connected to a Raspberry Pi.
-It includes support for temperature sensors, pH sensors, and potentially CO2 sensors.
+The module automatically detects whether hardware sensors are available and
+falls back to simulation when they are not.
 
-Note: This is a placeholder implementation. When running on a system without the
-required hardware, it will return simulated values. When running on a Raspberry Pi
-with the appropriate sensors, it will attempt to read from the actual hardware.
+Key functions:
+- get_temperature: Reads temperature from DS18B20 sensor or simulates it
+- get_ph: Reads pH from pH sensor module or simulates it
+- get_co2_level: Reads CO2 level from CO2 sensor or simulates it
+- simulate_temperature/ph/co2: Generate realistic simulated sensor values
+
+Author: Deen
+Email: deen.htc@gmail.com
 """
 
 import random
@@ -195,3 +202,4 @@ if __name__ == "__main__":
     
     if not HARDWARE_AVAILABLE:
         print("Note: Hardware sensors not detected. Using simulated values.")
+
