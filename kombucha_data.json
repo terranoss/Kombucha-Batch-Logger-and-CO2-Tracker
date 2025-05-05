@@ -1,0 +1,619 @@
+{
+  "batches": [
+    {
+      "name": "Classic Black Tea Batch",
+      "tea_type": "Black",
+      "sugar_content": 180,
+      "start_date": "2023-04-15",
+      "scoby_source": "Home-grown",
+      "vessel_type": "Glass Jar",
+      "flavoring": "Ginger and Lemon",
+      "volume": 2.0,
+      "notes": "Using organic black tea and raw cane sugar",
+      "logged_at": "2023-04-15 09:30:22",
+      "fermentation_phase": "secondary",
+      "bottling_date": "2023-04-29",
+      "bottle_type": "Swing-Top",
+      "added_sugar": 7.5,
+      "measurements": [
+        {
+          "date": "2023-04-15",
+          "temperature": 24.5,
+          "ph": 4.2,
+          "taste": "Very Sweet",
+          "scoby_thickness": 3,
+          "brix": 10.5,
+          "co2_estimate": 0.0,
+          "co2_pressure": 0.0,
+          "completion": 0.0,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-04-18",
+          "temperature": 25.0,
+          "ph": 3.8,
+          "taste": "Sweet",
+          "scoby_thickness": 5,
+          "brix": 8.2,
+          "co2_estimate": 12.5,
+          "co2_pressure": 0.4,
+          "completion": 15.2,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-04-21",
+          "temperature": 24.8,
+          "ph": 3.5,
+          "taste": "Balanced",
+          "scoby_thickness": 8,
+          "brix": 6.7,
+          "co2_estimate": 28.7,
+          "co2_pressure": 0.9,
+          "completion": 34.8,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-04-25",
+          "temperature": 25.2,
+          "ph": 3.2,
+          "taste": "Tart",
+          "scoby_thickness": 12,
+          "brix": 4.3,
+          "co2_estimate": 45.3,
+          "co2_pressure": 1.4,
+          "completion": 55.0,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-04-29",
+          "temperature": 25.5,
+          "ph": 2.9,
+          "taste": "Sour",
+          "scoby_thickness": 15,
+          "brix": 2.8,
+          "co2_estimate": 62.1,
+          "co2_pressure": 1.9,
+          "completion": 75.3,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-05-01",
+          "temperature": 23.0,
+          "carbonation_level": "Slightly Fizzy",
+          "bottle_firmness": "Slightly Firm",
+          "co2_estimate": 68.4,
+          "co2_pressure": 2.2,
+          "completion": 82.1,
+          "phase": "secondary"
+        },
+        {
+          "date": "2023-05-03",
+          "temperature": 23.5,
+          "carbonation_level": "Moderately Carbonated",
+          "bottle_firmness": "Firm",
+          "co2_estimate": 74.8,
+          "co2_pressure": 2.5,
+          "completion": 89.7,
+          "phase": "secondary"
+        },
+        {
+          "date": "2023-05-05",
+          "temperature": 24.0,
+          "carbonation_level": "Well Carbonated",
+          "bottle_firmness": "Very Firm",
+          "co2_estimate": 79.2,
+          "co2_pressure": 2.8,
+          "completion": 95.3,
+          "phase": "secondary"
+        }
+      ],
+      "secondary_measurements": [
+        {
+          "date": "2025-05-05",
+          "temperature": 23.0,
+          "carbonation_level": "Moderately Carbonated",
+          "bottle_firmness": "Slightly Firm"
+        }
+      ]
+    },
+    {
+      "name": "Green Tea Experiment",
+      "tea_type": "Green",
+      "sugar_content": 150,
+      "start_date": "2023-05-02",
+      "scoby_source": "Friend",
+      "vessel_type": "Glass Jar",
+      "flavoring": "Mint and Lime",
+      "volume": 1.5,
+      "notes": "Using Japanese sencha green tea",
+      "logged_at": "2023-05-02 14:15:33",
+      "fermentation_phase": "secondary",
+      "measurements": [
+        {
+          "date": "2023-05-02",
+          "temperature": 23.0,
+          "ph": 4.5,
+          "taste": "Very Sweet",
+          "scoby_thickness": 2,
+          "co2_estimate": 0.0,
+          "co2_pressure": 0.0,
+          "completion": 0.0,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-05-05",
+          "temperature": 23.5,
+          "ph": 4.0,
+          "taste": "Sweet",
+          "scoby_thickness": 4,
+          "co2_estimate": 8.2,
+          "co2_pressure": 0.3,
+          "completion": 12.1,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-05-09",
+          "temperature": 24.0,
+          "ph": 3.7,
+          "taste": "Balanced",
+          "scoby_thickness": 7,
+          "co2_estimate": 19.5,
+          "co2_pressure": 0.7,
+          "completion": 28.8,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-05-13",
+          "temperature": 24.2,
+          "ph": 3.4,
+          "taste": "Tart",
+          "scoby_thickness": 10,
+          "co2_estimate": 32.8,
+          "co2_pressure": 1.2,
+          "completion": 48.5,
+          "phase": "primary"
+        }
+      ],
+      "bottling_date": "2025-05-05"
+    },
+    {
+      "name": "Oolong Blend",
+      "tea_type": "Oolong",
+      "sugar_content": 200,
+      "start_date": "2023-03-20",
+      "scoby_source": "Commercial",
+      "vessel_type": "Ceramic Crock",
+      "flavoring": "Peach and Ginger",
+      "volume": 3.0,
+      "notes": "Using Taiwanese oolong tea",
+      "logged_at": "2023-03-20 11:45:18",
+      "fermentation_phase": "secondary",
+      "bottling_date": "2023-04-08",
+      "bottle_type": "Champagne",
+      "added_sugar": 5.0,
+      "measurements": [
+        {
+          "date": "2023-03-20",
+          "temperature": 26.0,
+          "ph": 4.3,
+          "taste": "Very Sweet",
+          "scoby_thickness": 3,
+          "co2_estimate": 0.0,
+          "co2_pressure": 0.0,
+          "completion": 0.0,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-03-23",
+          "temperature": 26.5,
+          "ph": 3.9,
+          "taste": "Sweet",
+          "scoby_thickness": 6,
+          "co2_estimate": 15.8,
+          "co2_pressure": 0.5,
+          "completion": 17.3,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-03-27",
+          "temperature": 27.0,
+          "ph": 3.6,
+          "taste": "Balanced",
+          "scoby_thickness": 9,
+          "co2_estimate": 35.2,
+          "co2_pressure": 1.1,
+          "completion": 38.5,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-03-31",
+          "temperature": 27.2,
+          "ph": 3.3,
+          "taste": "Tart",
+          "scoby_thickness": 12,
+          "co2_estimate": 58.7,
+          "co2_pressure": 1.8,
+          "completion": 64.2,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-04-04",
+          "temperature": 27.5,
+          "ph": 3.0,
+          "taste": "Sour",
+          "scoby_thickness": 15,
+          "co2_estimate": 82.3,
+          "co2_pressure": 2.5,
+          "completion": 90.0,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-04-08",
+          "temperature": 27.0,
+          "ph": 2.8,
+          "taste": "Very Sour",
+          "scoby_thickness": 18,
+          "co2_estimate": 91.5,
+          "co2_pressure": 2.8,
+          "completion": 100.0,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-04-10",
+          "temperature": 24.0,
+          "carbonation_level": "Slightly Fizzy",
+          "bottle_firmness": "Slightly Firm",
+          "co2_estimate": 93.2,
+          "co2_pressure": 3.0,
+          "completion": 100.0,
+          "phase": "secondary"
+        },
+        {
+          "date": "2023-04-12",
+          "temperature": 24.5,
+          "carbonation_level": "Moderately Carbonated",
+          "bottle_firmness": "Firm",
+          "co2_estimate": 95.8,
+          "co2_pressure": 3.2,
+          "completion": 100.0,
+          "phase": "secondary"
+        },
+        {
+          "date": "2023-04-14",
+          "temperature": 25.0,
+          "carbonation_level": "Well Carbonated",
+          "bottle_firmness": "Very Firm",
+          "co2_estimate": 98.3,
+          "co2_pressure": 3.5,
+          "completion": 100.0,
+          "phase": "secondary"
+        }
+      ]
+    },
+    {
+      "name": "Herbal Experiment",
+      "tea_type": "Herbal",
+      "sugar_content": 160,
+      "start_date": "2023-05-10",
+      "scoby_source": "Home-grown",
+      "vessel_type": "Glass Jar",
+      "flavoring": "Hibiscus and Rosehip",
+      "volume": 1.0,
+      "notes": "Using caffeine-free herbal blend",
+      "logged_at": "2023-05-10 16:20:45",
+      "fermentation_phase": "secondary",
+      "measurements": [
+        {
+          "date": "2023-05-10",
+          "temperature": 22.5,
+          "ph": 4.4,
+          "taste": "Very Sweet",
+          "scoby_thickness": 2,
+          "co2_estimate": 0.0,
+          "co2_pressure": 0.0,
+          "completion": 0.0,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-05-12",
+          "temperature": 22.8,
+          "ph": 4.2,
+          "taste": "Sweet",
+          "scoby_thickness": 3,
+          "co2_estimate": 5.3,
+          "co2_pressure": 0.2,
+          "completion": 7.3,
+          "phase": "primary"
+        }
+      ],
+      "bottling_date": "2025-05-05"
+    },
+    {
+      "name": "White Tea Delicate",
+      "tea_type": "White",
+      "sugar_content": 170,
+      "start_date": "2023-04-25",
+      "scoby_source": "Friend",
+      "vessel_type": "Glass Jar",
+      "flavoring": "Elderflower",
+      "volume": 2.5,
+      "notes": "Using silver needle white tea",
+      "logged_at": "2023-04-25 10:05:37",
+      "fermentation_phase": "secondary",
+      "measurements": [
+        {
+          "date": "2023-04-25",
+          "temperature": 23.8,
+          "ph": 4.4,
+          "taste": "Very Sweet",
+          "scoby_thickness": 2,
+          "co2_estimate": 0.0,
+          "co2_pressure": 0.0,
+          "completion": 0.0,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-04-28",
+          "temperature": 24.0,
+          "ph": 4.0,
+          "taste": "Sweet",
+          "scoby_thickness": 4,
+          "co2_estimate": 10.2,
+          "co2_pressure": 0.3,
+          "completion": 13.2,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-05-02",
+          "temperature": 24.2,
+          "ph": 3.7,
+          "taste": "Balanced",
+          "scoby_thickness": 7,
+          "co2_estimate": 22.5,
+          "co2_pressure": 0.7,
+          "completion": 29.1,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-05-06",
+          "temperature": 24.5,
+          "ph": 3.4,
+          "taste": "Tart",
+          "scoby_thickness": 10,
+          "co2_estimate": 38.7,
+          "co2_pressure": 1.2,
+          "completion": 50.0,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-05-10",
+          "temperature": 24.8,
+          "ph": 3.2,
+          "taste": "Sour",
+          "scoby_thickness": 13,
+          "co2_estimate": 55.3,
+          "co2_pressure": 1.7,
+          "completion": 71.5,
+          "phase": "primary"
+        }
+      ],
+      "bottling_date": "2025-05-05"
+    },
+    {
+      "name": "Jasmine Green Tea Experiment",
+      "tea_type": "Green",
+      "sugar_content": 160,
+      "start_date": "2023-06-10",
+      "scoby_source": "Home-grown",
+      "vessel_type": "Glass Jar",
+      "flavoring": "Jasmine and Elderflower",
+      "volume": 1.8,
+      "notes": "Using premium jasmine green tea and organic cane sugar",
+      "logged_at": "2023-06-10 11:15:42",
+      "fermentation_phase": "secondary",
+      "bottling_date": "2023-06-24",
+      "bottle_type": "Swing-Top",
+      "added_sugar": 5.0,
+      "measurements": [
+        {
+          "date": "2023-06-10",
+          "temperature": 23.8,
+          "ph": 4.5,
+          "taste": "Very Sweet",
+          "scoby_thickness": 4,
+          "brix": 11.2,
+          "co2_estimate": 0.0,
+          "co2_pressure": 0.0,
+          "completion": 0.0,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-06-14",
+          "temperature": 24.2,
+          "ph": 4.0,
+          "taste": "Sweet",
+          "scoby_thickness": 7,
+          "brix": 8.7,
+          "co2_estimate": 15.3,
+          "co2_pressure": 0.5,
+          "completion": 20.8,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-06-18",
+          "temperature": 24.5,
+          "ph": 3.7,
+          "taste": "Balanced",
+          "scoby_thickness": 10,
+          "brix": 6.2,
+          "co2_estimate": 32.6,
+          "co2_pressure": 1.0,
+          "completion": 44.2,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-06-22",
+          "temperature": 24.8,
+          "ph": 3.3,
+          "taste": "Tart",
+          "scoby_thickness": 13,
+          "brix": 3.8,
+          "co2_estimate": 51.9,
+          "co2_pressure": 1.6,
+          "completion": 70.5,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-06-24",
+          "temperature": 25.0,
+          "ph": 3.0,
+          "taste": "Sour",
+          "scoby_thickness": 15,
+          "brix": 2.5,
+          "co2_estimate": 59.4,
+          "co2_pressure": 1.8,
+          "completion": 80.6,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-06-26",
+          "temperature": 22.5,
+          "carbonation_level": "Slightly Fizzy",
+          "bottle_firmness": "Slightly Firm",
+          "co2_estimate": 64.7,
+          "co2_pressure": 2.0,
+          "completion": 87.8,
+          "phase": "secondary"
+        },
+        {
+          "date": "2023-06-28",
+          "temperature": 23.0,
+          "carbonation_level": "Moderately Carbonated",
+          "bottle_firmness": "Firm",
+          "co2_estimate": 70.2,
+          "co2_pressure": 2.2,
+          "completion": 95.3,
+          "phase": "secondary"
+        },
+        {
+          "date": "2023-06-30",
+          "temperature": 23.5,
+          "carbonation_level": "Well Carbonated",
+          "bottle_firmness": "Very Firm",
+          "co2_estimate": 73.8,
+          "co2_pressure": 2.3,
+          "completion": 100.0,
+          "phase": "secondary"
+        }
+      ]
+    },
+    {
+      "name": "Hibiscus Rooibos Blend",
+      "tea_type": "Herbal",
+      "sugar_content": 150,
+      "start_date": "2023-07-05",
+      "scoby_source": "Friend",
+      "vessel_type": "Ceramic Crock",
+      "flavoring": "Hibiscus and Rosehip",
+      "volume": 2.2,
+      "notes": "Using caffeine-free rooibos tea with hibiscus flowers",
+      "logged_at": "2023-07-05 14:30:18",
+      "fermentation_phase": "primary",
+      "measurements": [
+        {
+          "date": "2023-07-05",
+          "temperature": 24.0,
+          "ph": 4.6,
+          "taste": "Very Sweet",
+          "scoby_thickness": 3,
+          "brix": 10.8,
+          "co2_estimate": 0.0,
+          "co2_pressure": 0.0,
+          "completion": 0.0,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-07-08",
+          "temperature": 24.3,
+          "ph": 4.2,
+          "taste": "Sweet",
+          "scoby_thickness": 5,
+          "brix": 9.3,
+          "co2_estimate": 8.7,
+          "co2_pressure": 0.3,
+          "completion": 12.6,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-07-12",
+          "temperature": 24.5,
+          "ph": 3.9,
+          "taste": "Sweet",
+          "scoby_thickness": 8,
+          "brix": 7.5,
+          "co2_estimate": 18.4,
+          "co2_pressure": 0.6,
+          "completion": 26.7,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-07-16",
+          "temperature": 24.8,
+          "ph": 3.6,
+          "taste": "Balanced",
+          "scoby_thickness": 11,
+          "brix": 5.8,
+          "co2_estimate": 29.2,
+          "co2_pressure": 0.9,
+          "completion": 42.3,
+          "phase": "primary"
+        }
+      ]
+    },
+    {
+      "name": "Earl Grey Experiment",
+      "tea_type": "Black",
+      "sugar_content": 170,
+      "start_date": "2023-07-20",
+      "scoby_source": "Home-grown",
+      "vessel_type": "Glass Jar",
+      "flavoring": "Bergamot and Lavender",
+      "volume": 1.5,
+      "notes": "Using Earl Grey tea with bergamot oil",
+      "logged_at": "2023-07-20 09:45:33",
+      "fermentation_phase": "primary",
+      "measurements": [
+        {
+          "date": "2023-07-20",
+          "temperature": 25.0,
+          "ph": 4.4,
+          "taste": "Very Sweet",
+          "scoby_thickness": 4,
+          "brix": 11.0,
+          "co2_estimate": 0.0,
+          "co2_pressure": 0.0,
+          "completion": 0.0,
+          "phase": "primary"
+        },
+        {
+          "date": "2023-07-23",
+          "temperature": 25.2,
+          "ph": 4.1,
+          "taste": "Sweet",
+          "scoby_thickness": 6,
+          "brix": 9.2,
+          "co2_estimate": 10.5,
+          "co2_pressure": 0.3,
+          "completion": 13.4,
+          "phase": "primary"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "danger_threshold": 2.5,
+    "warning_threshold": 1.1,
+    "show_alerts": true,
+    "alert_check_frequency": "always"
+  }
+}
